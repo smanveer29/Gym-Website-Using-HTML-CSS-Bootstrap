@@ -1,0 +1,43 @@
+.form-box {
+    max-width: 800px;
+    padding: 50px;
+    background: #ffffff;
+    border: 10px solid #f2f2f2;
+    border-radius: 10px;
+}
+:root{
+    --animate-duration: 2s;
+    --animate-delay: 1s;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    height: 80vh;
+    border-radius: 20px;
+    box-shadow: 1px 4px 20px rgb(0, 0, 0);
+}
+input,
+textarea {
+    width: 30vw;
+    height: 40px;
+}
+.form-group{
+    margin-top: 20px!important;
+}
+.btn{
+    margin-top: 20px;
+    width: 30vw;
+}
+@media screen and (max-width:768px){
+    .btn{
+        width: 100%;
+    }
+    body{
+        background-color: white!important;
+    }
+}
